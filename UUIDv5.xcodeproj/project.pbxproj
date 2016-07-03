@@ -62,6 +62,10 @@
 		AB9CC48F1D29598B00160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CC4911D29598B00160DA2 /* UUIDv5-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUIDv5-macOS.h"; sourceTree = "<group>"; };
 		AB9CC4931D29598B00160DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB9CC4A11D296ADF00160DA2 /* appletvos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = appletvos.modulemap; sourceTree = "<group>"; };
+		AB9CC4A21D296ADF00160DA2 /* appletvsimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = appletvsimulator.modulemap; sourceTree = "<group>"; };
+		AB9CC4A31D296ADF00160DA2 /* watchos.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = watchos.modulemap; sourceTree = "<group>"; };
+		AB9CC4A41D296ADF00160DA2 /* watchsimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = watchsimulator.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +177,10 @@
 		AB9CC4531D294BE900160DA2 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				AB9CC4A11D296ADF00160DA2 /* appletvos.modulemap */,
+				AB9CC4A21D296ADF00160DA2 /* appletvsimulator.modulemap */,
+				AB9CC4A31D296ADF00160DA2 /* watchos.modulemap */,
+				AB9CC4A41D296ADF00160DA2 /* watchsimulator.modulemap */,
 				AB9CC45A1D294C1400160DA2 /* CommonCrypto.xcconfig */,
 				AB9CC45B1D294C1400160DA2 /* iphoneos.modulemap */,
 				AB9CC45C1D294C1400160DA2 /* iphonesimulator.modulemap */,
@@ -752,6 +760,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.CommonCrypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx watchsimulator watchos appletvsimulator appletvos";
 			};
 			name = Debug;
 		};
@@ -769,6 +778,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.CommonCrypto";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx watchsimulator watchos appletvsimulator appletvos";
 			};
 			name = Release;
 		};
