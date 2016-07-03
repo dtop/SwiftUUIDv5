@@ -1,5 +1,5 @@
 # SwiftUUIDv5
-[![Build Status](https://travis-ci.org/dtop/SwiftUUIDv5.svg)](https://travis-ci.org/dtop/SwiftUUIDv5)
+[![Build Status](https://travis-ci.org/dtop/SwiftUUIDv5.svg?branch=master)](https://travis-ci.org/dtop/SwiftUUIDv5)
 [![Compatibility](https://img.shields.io/badge/Swift-3.0-blue.svg)](https://developer.apple.com/swift)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dtop/SwiftValidate/master/LICENSE)
@@ -8,19 +8,3 @@
 
 Extension for generating v5 UUIDs
 
-
-```
-
-import UUIDv5
-
-class Foo {
-
-    private static let UUIDNS = ""
-
-    func Bar() -> UUID? {
-    
-        return UUID(namespace: Foo.UUIDNS, name: "Dr. Frankenstein") 
-    }
-}
-
-```
