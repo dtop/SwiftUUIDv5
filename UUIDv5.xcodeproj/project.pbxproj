@@ -51,15 +51,15 @@
 		AB9CC45C1D294C1400160DA2 /* iphonesimulator.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = iphonesimulator.modulemap; sourceTree = "<group>"; };
 		AB9CC45D1D294C1400160DA2 /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
 		AB9CC4601D294CC400160DA2 /* UUIDv5Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDv5Tests.swift; sourceTree = "<group>"; };
-		AB9CC46D1D2958DD00160DA2 /* UUIDv5-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "UUIDv5-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9CC46D1D2958DD00160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CC46E1D2958DD00160DA2 /* UUIDv5 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UUIDv5 copy-Info.plist"; path = "/Users/dtopalovic/Development/SwiftUUIDv5/UUIDv5 copy-Info.plist"; sourceTree = "<absolute>"; };
-		AB9CC4741D29592500160DA2 /* UUIDv5-watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "UUIDv5-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9CC4741D29592500160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CC4761D29592500160DA2 /* UUIDv5-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUIDv5-watchOS.h"; sourceTree = "<group>"; };
 		AB9CC4781D29592500160DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB9CC4821D29596900160DA2 /* UUIDv5-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "UUIDv5-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9CC4821D29596900160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CC4841D29596900160DA2 /* UUIDv5-tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUIDv5-tvOS.h"; sourceTree = "<group>"; };
 		AB9CC4861D29596900160DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB9CC48F1D29598B00160DA2 /* UUIDv5-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "UUIDv5-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB9CC48F1D29598B00160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CC4911D29598B00160DA2 /* UUIDv5-macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUIDv5-macOS.h"; sourceTree = "<group>"; };
 		AB9CC4931D29598B00160DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,10 +143,10 @@
 				AB9CC4311D29476D00160DA2 /* UUIDv5.framework */,
 				AB9CC43B1D29476E00160DA2 /* UUIDv5Tests.xctest */,
 				AB9CC4521D294BE900160DA2 /* CommonCrypto.framework */,
-				AB9CC46D1D2958DD00160DA2 /* UUIDv5-iOS.framework */,
-				AB9CC4741D29592500160DA2 /* UUIDv5-watchOS.framework */,
-				AB9CC4821D29596900160DA2 /* UUIDv5-tvOS.framework */,
-				AB9CC48F1D29598B00160DA2 /* UUIDv5-macOS.framework */,
+				AB9CC46D1D2958DD00160DA2 /* UUIDv5.framework */,
+				AB9CC4741D29592500160DA2 /* UUIDv5.framework */,
+				AB9CC4821D29596900160DA2 /* UUIDv5.framework */,
+				AB9CC48F1D29598B00160DA2 /* UUIDv5.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -331,7 +331,7 @@
 			);
 			name = "UUIDv5-iOS";
 			productName = UUIDv5;
-			productReference = AB9CC46D1D2958DD00160DA2 /* UUIDv5-iOS.framework */;
+			productReference = AB9CC46D1D2958DD00160DA2 /* UUIDv5.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB9CC4731D29592500160DA2 /* UUIDv5-watchOS */ = {
@@ -349,7 +349,7 @@
 			);
 			name = "UUIDv5-watchOS";
 			productName = "UUIDv5-watchOS";
-			productReference = AB9CC4741D29592500160DA2 /* UUIDv5-watchOS.framework */;
+			productReference = AB9CC4741D29592500160DA2 /* UUIDv5.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB9CC4811D29596900160DA2 /* UUIDv5-tvOS */ = {
@@ -367,7 +367,7 @@
 			);
 			name = "UUIDv5-tvOS";
 			productName = "UUIDv5-tvOS";
-			productReference = AB9CC4821D29596900160DA2 /* UUIDv5-tvOS.framework */;
+			productReference = AB9CC4821D29596900160DA2 /* UUIDv5.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AB9CC48E1D29598B00160DA2 /* UUIDv5-macOS */ = {
@@ -385,7 +385,7 @@
 			);
 			name = "UUIDv5-macOS";
 			productName = "UUIDv5-macOS";
-			productReference = AB9CC48F1D29598B00160DA2 /* UUIDv5-macOS.framework */;
+			productReference = AB9CC48F1D29598B00160DA2 /* UUIDv5.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -784,7 +784,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -803,7 +804,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -821,7 +823,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -842,7 +845,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -862,7 +866,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -882,7 +887,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -906,7 +912,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -928,7 +935,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "de.danilo-topalovic.UUIDv5-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = UUIDv5;
+				PRODUCT_NAME = UUIDv5;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
