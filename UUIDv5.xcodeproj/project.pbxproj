@@ -52,7 +52,6 @@
 		AB9CC45D1D294C1400160DA2 /* macosx.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = macosx.modulemap; sourceTree = "<group>"; };
 		AB9CC4601D294CC400160DA2 /* UUIDv5Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UUIDv5Tests.swift; sourceTree = "<group>"; };
 		AB9CC46D1D2958DD00160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB9CC46E1D2958DD00160DA2 /* UUIDv5 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "UUIDv5 copy-Info.plist"; path = "/Users/dtopalovic/Development/SwiftUUIDv5/UUIDv5 copy-Info.plist"; sourceTree = "<absolute>"; };
 		AB9CC4741D29592500160DA2 /* UUIDv5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UUIDv5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9CC4761D29592500160DA2 /* UUIDv5-watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UUIDv5-watchOS.h"; sourceTree = "<group>"; };
 		AB9CC4781D29592500160DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,7 +136,6 @@
 				AB9CC4831D29596900160DA2 /* UUIDv5-tvOS */,
 				AB9CC4901D29598B00160DA2 /* UUIDv5-macOS */,
 				AB9CC4321D29476D00160DA2 /* Products */,
-				AB9CC46E1D2958DD00160DA2 /* UUIDv5 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -408,8 +406,8 @@
 				TargetAttributes = {
 					AB9CC4301D29476D00160DA2 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = Q8NZG86Y6Z;
-						DevelopmentTeamName = "Danilo Topalovic (Personal Team)";
+						DevelopmentTeam = XET2U8929Q;
+						DevelopmentTeamName = "Danilo Topalovic";
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -990,6 +988,7 @@
 				AB9CC4591D294BEA00160DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB9CC46A1D2958DD00160DA2 /* Build configuration list for PBXNativeTarget "UUIDv5-iOS" */ = {
 			isa = XCConfigurationList;
@@ -1007,6 +1006,7 @@
 				AB9CC47B1D29592500160DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB9CC4871D29596900160DA2 /* Build configuration list for PBXNativeTarget "UUIDv5-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1015,6 +1015,7 @@
 				AB9CC4891D29596900160DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB9CC4941D29598B00160DA2 /* Build configuration list for PBXNativeTarget "UUIDv5-macOS" */ = {
 			isa = XCConfigurationList;
@@ -1023,6 +1024,7 @@
 				AB9CC4961D29598B00160DA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB9CC48E1D29598B00160DA2"
-               BuildableName = "UUIDv5-macOS.framework"
+               BuildableName = "UUIDv5.framework"
                BlueprintName = "UUIDv5-macOS"
                ReferencedContainer = "container:UUIDv5.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB9CC48E1D29598B00160DA2"
-            BuildableName = "UUIDv5-macOS.framework"
+            BuildableName = "UUIDv5.framework"
             BlueprintName = "UUIDv5-macOS"
             ReferencedContainer = "container:UUIDv5.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB9CC48E1D29598B00160DA2"
-            BuildableName = "UUIDv5-macOS.framework"
+            BuildableName = "UUIDv5.framework"
             BlueprintName = "UUIDv5-macOS"
             ReferencedContainer = "container:UUIDv5.xcodeproj">
          </BuildableReference>

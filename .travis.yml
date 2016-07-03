@@ -1,0 +1,9 @@
+language: objective-c
+osx_image: xcode8
+env:
+  - DESTINATION="OS=9.0,name=iPhone 6" SCHEME="SwiftValidate" SDK=iphonesimulator
+before_install:
+  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+script: ./travis.sh
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -J 'SwiftUUIDv5'
