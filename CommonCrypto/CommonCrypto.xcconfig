@@ -1,0 +1,11 @@
+//
+//  CommonCrypto.xcconfig
+//  scram
+//
+//  Created by Danilo Topalovic on 26.02.16.
+//  Copyright © 2016 preisvergleich.check24.de. All rights reserved.
+//
+
+MODULEMAP_FILE[sdk=iphoneos*]        = $(SRCROOT)/CommonCrypto/iphoneos.modulemap
+MODULEMAP_FILE[sdk=iphonesimulator*] = $(SRCROOT)/CommonCrypto/iphonesimulator.modulemap
+MODULEMAP_FILE[sdk=macosx*]          = $(SRCROOT)/CommonCrypto/macosx.modulemap

@@ -1,0 +1,13 @@
+//
+//  iphonesimulator.modulemap
+//  scram
+//
+//  Created by Danilo Topalovic on 26.02.16.
+//  Copyright © 2016 preisvergleich.check24.de. All rights reserved.
+//
+
+
+module CommonCrypto [system] {
+    header "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/CommonCrypto/CommonCrypto.h"
+    export *
+}
