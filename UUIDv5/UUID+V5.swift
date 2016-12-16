@@ -46,10 +46,9 @@ public extension UUID {
         }
         
         let nsdata   = Data(bytes: ns.byteArray())
-        let nameData = Data(bytes: UnsafePointer<UInt8>(
-            name.cString(using: .utf8)!),
-            count: name.characters.count
-        )
+        guard let nameData = name.data(using: .utf8) else {
+            return nil
+        }
         
         let concatData = NSMutableData()
         concatData.append(nsdata)
@@ -70,6 +69,11 @@ public extension UUID {
         self.init(uuid: uuid_t)
     }
     
+    /**
+     Returns the UUID as array of UInt8
+ 
+     - returns: the uuid array
+     */
     private func byteArray() -> [UInt8] {
         
         let innerIterator = Mirror(reflecting: self.uuid).children
